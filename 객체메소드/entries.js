@@ -7,4 +7,4 @@ const user = {
 Object.entries(user);
 console.log(Object.entries(user));
 
-//객체의 값들을 배열로 반환한다 
+//객체의  키와 값들을 배열로 반환한다 
