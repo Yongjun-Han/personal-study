@@ -37,3 +37,15 @@ const assign2 = {
 
 const assignSum = Object.assign(assign, assign2);
 console.log(assignSum);
+
+
+
+function makeObj(key,value){
+  return {
+    [key] : value
+  };
+}
+const obj = makeObj("나이",33);
+console.log(obj);
+
+//어떤것이 키가 될지 모를때 편리하다
